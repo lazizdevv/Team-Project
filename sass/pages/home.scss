@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 @use "../global";
 @use "../utils/mixins" as mxn;
 @use "../utils/variables" as var;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 nav{
     .nav-list{
         display: flex;
         justify-content: space-between;
+        max-width: 402px;
+    }
+
+    .nav-link{
+        color: rgb(0, 37, 74);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
     }
 }
