@@ -31,3 +31,13 @@ closeBtn.addEventListener("click", () => {
   group.classList.remove("df");
   fixPln.classList.remove("bottom");
 });
+
+
+let hamburgerBtn = document.querySelector(".hamburger");
+
+let ellipse = document.querySelector(".ellipse");
+let showNumber = document.querySelector("#showNumber")
+
+ellipse.addEventListener("click", () =>{
+  showNumber.classList.toggle("df")
+})

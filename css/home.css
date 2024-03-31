@@ -177,6 +177,50 @@ nav .group .box .text-box {
 nav .group .box .text-box:hover {
   background-color: rgba(57, 152, 229, 0.3);
 }
+nav .nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+nav .nav .ellipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgb(39, 172, 226);
+}
+nav .nav .left-box {
+  display: flex;
+  gap: 28px;
+}
+nav .nav .left-box button {
+  background: transparent;
+}
+nav .nav .left-box img {
+  width: 114px;
+  height: 27px;
+}
+nav .nav .numbers-box {
+  display: none;
+  justify-content: space-around;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  padding: 23px 0;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+}
+nav .nav .numbers-box img {
+  width: 16px;
+  height: 16px;
+}
+nav .nav .df {
+  display: flex;
+}
 nav .df {
   display: flex;
 }

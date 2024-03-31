@@ -9,6 +9,7 @@ nav{
         padding: 12px 0;
         border-bottom: 1px solid rgb(212, 228, 239);
     }
+    
     .nav-list{
         display: flex;
         justify-content: space-between;
@@ -125,7 +126,6 @@ nav{
         }
     }
     
-
     .group{
         position: absolute;
         margin-top: 15px;
@@ -177,11 +177,66 @@ nav{
         }
     }
 
+    .nav{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+
+        .ellipse{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: rgb(39, 172, 226);
+        }
+
+        .left-box{
+            display: flex;
+            gap: 28px;
+
+            button{
+                background: transparent;
+            }
+
+            img{
+                width: 114px;
+                height: 27px;
+            }
+        }
+
+        .numbers-box{
+            display: none;
+            justify-content: space-around;
+            position: absolute;
+            top: 60px;
+            width: 100%;
+            padding: 23px 0;
+            border-radius: 4px;
+            border: 1px solid rgba(128, 128, 128, 0.7);
+
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .df{
+            display: flex;
+        }
+    }
+
     .df{
         display: flex;
     }
     
 }
+
+
+
 .bottom{
     border-bottom: 4px solid rgb(39, 172, 226) ;
 }
