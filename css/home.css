@@ -175,7 +175,7 @@ nav .group .box .text-box {
   height: 64px;
 }
 nav .group .box .text-box:hover {
-  background-color: rgb(57, 153, 229);
+  background-color: rgba(57, 152, 229, 0.3);
 }
 nav .df {
   display: flex;
