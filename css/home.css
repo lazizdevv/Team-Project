@@ -174,9 +174,6 @@ nav .group .box .text-box {
   width: 100%;
   height: 64px;
 }
-nav .group .box .text-box svg {
-  border: 2px solid blue;
-}
 nav .df {
   display: flex;
 }
