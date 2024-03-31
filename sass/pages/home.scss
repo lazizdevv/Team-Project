@@ -6,10 +6,17 @@
 
 
 nav{
+    .nav-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid rgb(212, 228, 239);
+    }
     .nav-list{
         display: flex;
         justify-content: space-between;
-        max-width: 402px;
+        width: 504px;
+        padding-left: 0;
     }
 
     .nav-link{
@@ -21,4 +28,178 @@ nav{
         letter-spacing: 0%;
         text-align: left;
     }
+
+    .nav-link:hover{
+        color: rgb(39, 172, 226);
+    }
+
+    .nav-middle{
+        display: flex;
+        justify-content: space-between;
+
+        .toggle-box{
+            display: flex;
+            width: max-content;
+            justify-content: space-between;
+            gap: 54px;
+            flex-wrap: wrap-reverse;
+
+            button{
+                background-color: transparent;
+                color: rgb(51, 51, 51);
+                font-family: Roboto Condensed;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: uppercase;
+                padding: 5px;
+            }
+
+            button:hover{
+                background: rgba(39, 173, 226, 0.295);
+            }
+        }
+
+    }
+
+    .logo-box{
+        max-width: max-content;
+        position: relative;
+        cursor: pointer;
+
+        img{
+            max-width: 190px;
+        }
+
+        p{
+            position: absolute;
+            display: flex;
+            width: max-content;
+            height: 16px;
+            color: rgb(0, 37, 74);
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .numbers-box{
+        display: flex;
+        justify-content: space-between;
+        gap: 9px;
+        flex-wrap: wrap;
+
+        .numbers{
+            display: flex;
+            flex-direction: column;
+
+            a{
+                text-decoration: none;
+                color: rgb(0, 37, 74);
+                font-family: Roboto;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0%;
+                text-align: left;
+                transition: 0.2s;
+            }
+            a:hover{
+                color: rgb(57, 153, 229);
+                text-decoration-line: underline;
+            }
+
+            .text{
+                padding: 3px;
+                color: rgb(57, 153, 229);
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration-line: underline;
+            }
+        }
+    }
+    
+
+    .group{
+        position: absolute;
+        // border: 2px solid red;
+        // position: relative;
+        margin-top: 15px;
+        padding-top: 25px;
+        display: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        transition: top 2s ease-in-out;
+
+        
+
+        button{
+            background: transparent;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 0;
+            right: 0;
+        }
+        
+
+        .box{
+            border: 2px solid green;
+            // width: 100%;
+
+            .text-box{
+                display: flex;
+                // width: max-content;
+                justify-content: start;
+                align-items: center;
+                align-content: center;
+                align-self: center;
+                padding: 0 15px;
+                gap: 15px;
+
+                // border-top: 2px solid rgba(212, 228, 239, 0.6);
+                border-bottom: 2px solid rgba(212, 228, 239, 0.6);
+
+                text-align: center;
+                color: rgb(61, 61, 61);
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration: none;
+                // width: 251px;
+                width: 100%;
+                height: 64px;
+
+                svg{
+                    border: 2px solid blue;
+                }
+
+                
+                    
+                
+
+            }
+        }
+    }
+
+    .df{
+        display: flex;
+    }
+    
+}
+.bottom{
+    border-bottom: 4px solid rgb(39, 172, 226) ;
 }
