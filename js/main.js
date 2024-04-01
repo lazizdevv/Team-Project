@@ -1,7 +1,5 @@
 let fixMob = document.querySelector(".fix-mob");
-
 let closeBtn = document.querySelector(".close-btn");
-
 let fixPln = document.querySelector(".fix-pln");
 
 fixMob.addEventListener("click", ()=>{
