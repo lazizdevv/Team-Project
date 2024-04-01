@@ -4,7 +4,6 @@ let closeBtn = document.querySelector(".close-btn");
 
 let fixPln = document.querySelector(".fix-pln");
 
-
 fixMob.addEventListener("click", ()=>{
     let group = document.querySelector(".group");
     group.classList.toggle("df");
@@ -17,13 +16,10 @@ closeBtn.addEventListener("click", () => {
     fixMob.classList.remove("bottom");
 });
 
-
-
 fixPln.addEventListener("click", () => {
   let group = document.querySelector(".group");
   group.classList.toggle("df");
   fixPln.classList.toggle("bottom");
-  
 });
 
 closeBtn.addEventListener("click", () => {
@@ -32,9 +28,8 @@ closeBtn.addEventListener("click", () => {
   fixPln.classList.remove("bottom");
 });
 
-
+// ------------------------------------------------------------------
 let hamburgerBtn = document.querySelector(".hamburger");
-
 let ellipse = document.querySelector(".ellipse");
 let showNumber = document.querySelector("#showNumber")
 
