@@ -262,6 +262,12 @@ footer .by {
   text-align: left;
 }
 
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
