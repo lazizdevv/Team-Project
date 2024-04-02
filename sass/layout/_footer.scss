@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    // border: 2px solid red;
+}
+
+footer{
+    border-top: 1px solid rgb(212, 228, 239);
+    .logo-box{
+        max-width: max-content;
+        position: relative;
+        cursor: pointer;
+
+        p{
+            position: absolute;
+            display: flex;
+            width: max-content;
+            height: 16px;
+            color: rgb(0, 37, 74);
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .location-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        margin-bottom: 15px;
+        gap: 15px;
+
+        .email{
+            color: rgb(0, 37, 74);
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: underline;
+        }
+
+        .map{
+            color: rgb(0, 37, 74);
+            opacity: 0.7;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .numbers-box{
+        display: flex;
+        justify-content: space-between;
+        gap: 9px;
+        flex-wrap: wrap;
+
+        .numbers{
+            display: flex;
+            flex-direction: column;
+
+            a{
+                text-decoration: none;
+                color: rgb(0, 37, 74);
+                font-family: Roboto;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0%;
+                text-align: left;
+                transition: 0.2s;
+            }
+            a:hover{
+                color: rgb(57, 153, 229);
+                text-decoration-line: underline;
+            }
+
+            .text{
+                padding: 3px;
+                color: rgb(57, 153, 229);
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration-line: underline;
+            }
+        }
+    }
+
+
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(212, 228, 239);
+        padding: 20px 0;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .links{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        span{
+            color: rgb(55, 69, 97);
+            opacity: 0.4;
+            font-family: Roboto Condensed;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+
+    .footer-link{
+        /* Text */
+        color: rgb(0, 37, 74);
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .footer-link:hover{
+        /* Text */
+        color: rgb(39, 172, 226);
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .end{
+        padding-top: 18px;
+        padding-bottom: 77px;
+        span{
+            color: rgb(0, 37, 74);
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .button-box{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 25px;
+
+        button{
+            width: 214px;
+            height: 40px;
+            // padding: 12px 32px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 2px solid rgb(39, 172, 226);
+            border-radius: 4px;
+            color: rgb(39, 172, 226);
+            font-family: Roboto Condensed;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+        }
+
+        button:hover{
+            color: white;
+            background: rgb(39, 172, 226);
+        }
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+
+        .add{
+            color: rgb(0, 37, 74);
+            font-family: Roboto;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 13px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 15px;
+
+        }
+    }
+
+    .icons-card{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 27px;
+        border-bottom: 1px solid rgb(212, 228, 239);
+    }
+
+    .gp{
+        display: flex;
+        gap: 20px;
+    }
+
+    .email{
+        color: rgb(0, 37, 74);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+
+    .by{
+        margin: 10px 0;
+        color: rgb(0, 37, 74);
+        font-family: Roboto Slab;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: -1px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
