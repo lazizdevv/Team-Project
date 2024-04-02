@@ -378,67 +378,6 @@ select:hover {
   top: 380px;
 }
 
-.remonte {
-  background: rgb(245, 245, 245);
-  width: 1140px;
-  height: 393px;
-}
-.remonte_text {
-  text-align: center;
-  color: rgb(61, 61, 61);
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0%;
-  padding: 20px 0;
-  font-weight: 700;
-}
-.remonte_images {
-  display: flex;
-  justify-content: center;
-}
-
-.img {
-  display: flex;
-  padding: 0 120px;
-}
-
-.texts {
-  display: flex;
-  gap: 180px;
-  padding: 10px 100px;
-}
-
-.text {
-  color: rgb(61, 61, 61);
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  width: 200px;
-  height: 48px;
-}
-
-.card {
-  padding: 40px 0;
-}
-.card_text {
-  color: rgb(61, 61, 61);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0%;
-  text-align: center;
-}
-.card_title {
-  color: rgb(61, 61, 61);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0%;
-  text-align: center;
-  padding: 7px 0;
-}
-
 nav .nav-top {
   display: flex;
   justify-content: space-between;
@@ -551,6 +490,8 @@ nav .numbers-box .numbers .text {
   text-decoration-line: underline;
 }
 nav .group {
+  z-index: 1;
+  background-color: white;
   position: absolute;
   margin-top: 15px;
   padding-top: 25px;
